@@ -1,0 +1,57 @@
+body {
+    width: 964px;
+    background-color: yellow;
+}
+
+nav {
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: white;
+    /* position: relative;
+    left: 25%; */
+    width: 165%;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.content {
+    width: 960px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    left: 25%;
+}
+
+#name {
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 150%;
+}
+
+#top {
+    height: 55px;
+}
+
+/* import css from bio page */
+  #main-bio, #bio-image {
+    float: left;
+  }
+  
+  #main-bio {
+    width: 100%;
+  }
+  
+  #bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    float: left;
+  }
