@@ -1,57 +1,141 @@
-body {
-    width: 964px;
-    background-color: yellow;
+header {
+    width: 100%;
+    height: 75px;
+    /* padding: 5px 10px 5px 10px;
+    border: 10px;
+    border-color: transparent; */
+    margin: auto;
+    background-color: #ef9c00;
+    border: 5px solid transparent;
+    text-align: center;
 }
-
+body {
+    /* width: 964px; */
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    background-color: salmon;
+}
 nav {
+    height: 70px;
+    padding: 22px 10px 10px 10px;
+    background-color: azure;
     float: right;
 }
-
-footer {
-    text-align: center;
-    background-color: white;
-    /* position: relative;
-    left: 25%; */
-    width: 165%;
+#left {
+    float: left;
+    vertical-align: text-top;
 }
-
+#leftPara {
+    height: 55px;
+    padding: 15px 10px 10px 10px;
+    background-color: green;
+    float: left;
+    vertical-align: text-top;
+}
+#sidebarA {
+    /* width:  180px; */
+    width: 25%;
+    height: 500px;  /* to give the sidebar some height for its border */
+    float: left;
+    background-color: blueviolet;
+    /* border-right:  2px solid #ef9c00; */
+    border-collapse: collapse;
+    text-align: center;
+}
+main {
+    /* width: 600px; */
+    width: 50%;
+    height: 376px;
+    float: left;
+    background-color: aqua;
+    border-collapse: collapse;
+    text-align: left;
+}
+#sidebarB {
+    /* width: 180px; */
+    width: 25%;
+    height: 500px;  /* to give the sidebar some height for its border */
+    float :right;
+    /* float: left; */
+    background-color: blueviolet;
+    border-collapse: collapse;
+    /* border-left: 2px solid #ef9c00; */
+    text-align: center;
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: mediumspringgreen;
+    border-top: 2px solid #ef9c00;
+    text-align: center;
+}
+#bio-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+    float: left;
+}   
+#spacer {
+    height: 50px;
+    background-color: bisque;
+}
+#upperA {
+    height: 75px;
+    background-color: red;
+}
+#upperB {
+    height: 75px;
+    background-color: red;
+} 
+#bottomSpacer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    background-color: #ef9c00;
+}      
 .clearfix::after {
     content: " ";
     display: block;
     clear: both;
 }
+/* #underline::after {
+    content: "____________";
+} 
+/* add sticky footer styling */
+html {
+height: 100%;
+}
+
+body {
+    /* display: flex; */
+    flex-direction: column;
+    height: 100vh; /* Avoid the IE 10-11 `min-height` bug. */
+}
 
 .content {
-    width: 960px;
-    height: 500px;
-    background-color: white;
+    flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
     padding: 20px;
-    position: relative;
-    left: 25%;
 }
 
-#name {
-    float: left;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 150%;
-}
-
-#top {
-    height: 55px;
-}
-
-/* import css from bio page */
-  #main-bio, #bio-image {
-    float: left;
-  }
-  
-  #main-bio {
+/* .footer {
+    flex-shrink: 0; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    /*padding: 20px;
     width: 100%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    float: left;
-  }
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+/* clearing floats per w3school */
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
