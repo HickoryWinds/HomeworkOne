@@ -15,7 +15,8 @@ body {
     height: 100%;
     margin: auto;
     /* border: 1px solid black; */
-    background-color: salmon;
+    background-image: url("gravel.png");
+    background-color: #be2323;
 }
 nav {
     height: 70px;
@@ -23,7 +24,8 @@ nav {
     background-color: azure;
     float: right;
 }
-#left {
+.left {
+    padding: 15px 10px 10px 10px;
     float: left;
     vertical-align: text-top;
 }
@@ -44,7 +46,7 @@ nav {
     border-collapse: collapse;
     text-align: center;
 }
-main {
+.main {
     /* width: 600px; */
     width: 50%;
     height: 376px;
