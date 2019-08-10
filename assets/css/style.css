@@ -6,7 +6,7 @@ header {
     border-color: transparent; */
     margin: auto;
     border-bottom: 5px solid #cccccc;
-    background-color: #ef9c00;
+    background-color: white;
     font-family: Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
@@ -20,7 +20,8 @@ body {
 nav {
     height: 70px;
     padding: 40px 10px 10px 10px;
-    background-color: azure;
+    background-color: white;
+    color: teal;
     font-size: 10pt;
     float: right;
 }
@@ -36,9 +37,10 @@ nav {
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
 #leftPara {
-    height: 50px;
+    height: 51px;
     padding: 15px 10px 10px 10px;
-    background-color: green;
+    background-color:teal;
+    color: white;
     font-size: 14pt;
     font-weight: bold;
     /* vertical-align: text-top; */
@@ -50,7 +52,7 @@ nav {
     height: 500px;  /* to give the sidebar some height for its border */
     /* border-right:  2px solid #ef9c00; */
     border-collapse: collapse;
-    background-color: blueviolet;
+    background-color: transparent;
     text-align: center;
     float: left;
 }
@@ -73,7 +75,7 @@ nav {
     height: 500px;  /* to give the sidebar some height for its border */
     float :right;
     /* float: left; */
-    background-color: blueviolet;
+    background-color: transparent;
     border-collapse: collapse;
     /* border-left: 2px solid #ef9c00; */
     text-align: center;
@@ -106,23 +108,25 @@ nav {
 }     
 #spacerA {
     height: 50px;
-    background-color: bisque;
+    background-color: transparent;
 }
 #spacerC {
     height: 50px;
-    background-color: bisque;
+    background-color: transparent;
 }
 #spacerP {
     height: 10px;
-    background-color: bisque;
+    background-color: transparent;
 }
 #upperA {
     height: 75px;
-    background-color: red;
+    border-bottom: 5px solid #cccccc;
+    background-color: white;
 }
 #upperB {
     height: 75px;
-    background-color: red;
+    border-bottom: 5px solid #cccccc;
+    background-color: white;
 } 
 #bottomSpacer {
     position: absolute;
@@ -192,77 +196,68 @@ section:after {
   }
   #overlay1 {
     position: absolute;
-    top: 240px;
-    background: rgb(0, 0, 0);
-    background: red; /* Black see-through */
-    color: #f1f1f1; 
+    top: 262px;
+    background: teal;
+    color: white;
     width: 190px;
-    transition: .5s ease;
+    /* transition: .5s ease; */
     opacity:1;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     text-align: center;
   }
   
   #overlay2 {
     position: absolute;
-    top: 240px;
+    top: 262px;
     left: 490px;
-    background: rgb(0, 0, 0);
-    background: red; /* Black see-through */
-    color: #f1f1f1; 
+    background: teal;
     width: 190px;
-    transition: .5s ease;
+    /* transition: .5s ease; */
     opacity:1;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     text-align: center;
   }
   
   #overlay3 {
     position: absolute;
-    top: 400px;
-    background: rgb(0, 0, 0);
-    background: red; /* Black see-through */
-    color: #f1f1f1; 
+    top: 422px;
+    background: teal;
     width: 190px;
-    transition: .5s ease;
+    /* transition: .5s ease; */
     opacity:1;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     text-align: center;
   }
   
   #overlay4 {
     position: absolute;
-    top: 400px;
+    top: 422px;
     left: 490px;
-    background: rgb(0, 0, 0);
-    background: red; /* Black see-through */
-    color: #f1f1f1; 
+    background: teal;
     width: 190px;
-    transition: .5s ease;
+    /* transition: .5s ease; */
     opacity:1;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     text-align: center;
   }
   
   #overlay5 {
     position: absolute;
-    top: 555px;
-    background: rgb(0, 0, 0);
-    background: red; /* Black see-through */
-    color: #f1f1f1; 
+    top: 582px;
+    background: teal;
     width: 190px;
-    transition: .5s ease;
+    /* transition: .5s ease; */
     opacity:1;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     text-align: center;
   }
