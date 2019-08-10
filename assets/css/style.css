@@ -5,8 +5,9 @@ header {
     border: 10px;
     border-color: transparent; */
     margin: auto;
+    border-bottom: 5px solid #cccccc;
     background-color: #ef9c00;
-    border: 5px solid transparent;
+    font-family: Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 body {
@@ -14,14 +15,13 @@ body {
     width: 100%;
     height: 100%;
     margin: auto;
-    /* border: 1px solid black; */
     background-image: url("gravel.png");
-    /* background-color: #be2323; */
 }
 nav {
     height: 70px;
-    padding: 22px 10px 10px 10px;
+    padding: 40px 10px 10px 10px;
     background-color: azure;
+    font-size: 10pt;
     float: right;
 }
 .left {
@@ -29,31 +29,43 @@ nav {
     float: left;
     vertical-align: text-top;
 }
+.label {
+    color: teal;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
 #leftPara {
-    height: 55px;
+    height: 50px;
     padding: 15px 10px 10px 10px;
     background-color: green;
+    font-size: 14pt;
+    font-weight: bold;
+    /* vertical-align: text-top; */
     float: left;
-    vertical-align: text-top;
 }
 #sidebarA {
     /* width:  180px; */
     width: 25%;
     height: 500px;  /* to give the sidebar some height for its border */
-    float: left;
-    background-color: blueviolet;
     /* border-right:  2px solid #ef9c00; */
     border-collapse: collapse;
+    background-color: blueviolet;
     text-align: center;
+    float: left;
 }
 .main {
     /* width: 600px; */
     width: 50%;
-    height: 376px;
-    float: left;
-    background-color: aqua;
+    /* height: 376px; */
+    background-color: white;
     border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: left;
+    float: left;
+}
+.main-ht1 {
+    height: 376px;
 }
 #sidebarB {
     /* width: 180px; */
@@ -71,9 +83,13 @@ nav {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 75px;
-    background-color: mediumspringgreen;
-    border-top: 2px solid #ef9c00;
+    height: 55px;
+    border-top: 5px solid teal;
+    padding-top: 30px;
+    background-color: #666666;
+    color: white;
+    font-size: 8pt;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 #bio-image {
@@ -113,7 +129,14 @@ nav {
     bottom: 0;
     height: 50px;
     background-color: #ef9c00;
-}      
+}   
+#submit-con {
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: teal;
+}   
 .clearfix::after {
     content: " ";
     display: block;
