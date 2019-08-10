@@ -16,7 +16,7 @@ body {
     margin: auto;
     /* border: 1px solid black; */
     background-image: url("gravel.png");
-    background-color: #be2323;
+    /* background-color: #be2323; */
 }
 nav {
     height: 70px;
@@ -81,9 +81,23 @@ nav {
     height: 150px;
     margin-right: 5px;
     float: left;
-}   
-#spacer {
+} 
+.port-image {
+    /* width: 200px; */
+    height: 150px;
+    margin-right: 5px;
+    float: left;
+}     
+#spacerA {
     height: 50px;
+    background-color: bisque;
+}
+#spacerC {
+    height: 50px;
+    background-color: bisque;
+}
+#spacerP {
+    height: 10px;
     background-color: bisque;
 }
 #upperA {
@@ -141,3 +155,75 @@ section:after {
     display: table;
     clear: both;
 }
+/* add picture overlay */
+.column {
+    float: left;
+    width: 200px;;
+    padding: 5px;
+  }
+  /* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+#overlay1 {
+    position: relative; 
+    top: 75px; 
+    background: rgb(0, 0, 0);
+    background: red; /* Black see-through */
+    color: #f1f1f1; 
+    width: 150px;
+    height: 50px;
+    /* transition: .5s ease; */
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  #overlay2 {
+    position: relative; 
+    top: 75px; 
+    background: rgb(0, 0, 0);
+    background: red; /* Black see-through */
+    color: #f1f1f1; 
+    width: 150px;
+    height: 50px;
+    /* transition: .5s ease; */
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  #overlay4 {
+    position: relative; 
+    top: 75px; 
+    background: rgb(0, 0, 0);
+    background: red; /* Black see-through */
+    color: #f1f1f1; 
+    width: 150px;
+    height: 50px;
+    /* transition: .5s ease; */
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  #overlay5 {
+    position: relative; 
+    top: 75px; 
+    background: rgb(0, 0, 0);
+    background: red; /* Black see-through */
+    color: #f1f1f1; 
+    width: 150px;
+    height: 50px;
+    /* transition: .5s ease; */
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
