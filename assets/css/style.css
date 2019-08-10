@@ -167,60 +167,76 @@ section:after {
     clear: both;
     display: table;
   }
-#overlay1 {
-    position: relative; 
-    top: 75px; 
+  #overlay1 {
+    position: absolute;
+    top: 240px;
     background: rgb(0, 0, 0);
     background: red; /* Black see-through */
     color: #f1f1f1; 
-    width: 150px;
-    height: 50px;
-    /* transition: .5s ease; */
+    width: 190px;
+    transition: .5s ease;
     opacity:1;
     color: white;
     font-size: 20px;
     padding: 20px;
     text-align: center;
   }
+  
   #overlay2 {
-    position: relative; 
-    top: 75px; 
+    position: absolute;
+    top: 240px;
+    left: 490px;
     background: rgb(0, 0, 0);
     background: red; /* Black see-through */
     color: #f1f1f1; 
-    width: 150px;
-    height: 50px;
-    /* transition: .5s ease; */
+    width: 190px;
+    transition: .5s ease;
     opacity:1;
     color: white;
     font-size: 20px;
     padding: 20px;
     text-align: center;
   }
+  
+  #overlay3 {
+    position: absolute;
+    top: 400px;
+    background: rgb(0, 0, 0);
+    background: red; /* Black see-through */
+    color: #f1f1f1; 
+    width: 190px;
+    transition: .5s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
   #overlay4 {
-    position: relative; 
-    top: 75px; 
+    position: absolute;
+    top: 400px;
+    left: 490px;
     background: rgb(0, 0, 0);
     background: red; /* Black see-through */
     color: #f1f1f1; 
-    width: 150px;
-    height: 50px;
-    /* transition: .5s ease; */
+    width: 190px;
+    transition: .5s ease;
     opacity:1;
     color: white;
     font-size: 20px;
     padding: 20px;
     text-align: center;
   }
+  
   #overlay5 {
-    position: relative; 
-    top: 75px; 
+    position: absolute;
+    top: 555px;
     background: rgb(0, 0, 0);
     background: red; /* Black see-through */
     color: #f1f1f1; 
-    width: 150px;
-    height: 50px;
-    /* transition: .5s ease; */
+    width: 190px;
+    transition: .5s ease;
     opacity:1;
     color: white;
     font-size: 20px;
