@@ -36,6 +36,11 @@ nav {
     font-weight: bold;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
+
+.lineSpacing {
+    line-height: 200%;
+    color: teal;
+}
 #leftPara {
     height: 51px;
     padding: 15px 10px 10px 10px;
