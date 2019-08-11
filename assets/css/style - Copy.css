@@ -213,12 +213,6 @@ format ids
     background-color: teal;
 }  
 
-#low-right {
-    position: fixed;
-    right: 0;
-    bottom: 40px;
-}
-
 /* settings common to all overlays */
 body {
     /* Avoid the IE 10-11 `min-height` bug. */
