@@ -57,8 +57,7 @@ format classes
 /* main and left format section label and content area */
 .main {
     width: 960px;
-    /* width: 50%; */
-    /* height: 376px; */
+    /* width: 50%; makes page more responsive */
     padding: 15px 25px;
     background-color: white;
     border-collapse: collapse;
@@ -68,6 +67,19 @@ format classes
     float: left;
 }
 
+/* add height for portfolio main due absolute positioning of images */
+.main1 {
+    width: 960px;
+    /* width: 50%; makes page more responsive */
+    height: 575px;
+    padding: 15px 25px;
+    background-color: white;
+    border-collapse: collapse;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    float: left;
+}
 .left {
     padding: 15px 10px 10px 10px;
     float: left;
@@ -88,16 +100,45 @@ format classes
     color: #777777;
 }
 
+/* make image position absolute so overlays stay on top when resized
+    pulls images out of body */
 .port-image {
-    width: 350px;
+    position: absolute;
+    /* keep images from stretching */
+    max-width: 243px;
     height: 150px;
     margin-right: 5px;
     float: left;
+}
+
+/* set image locations */
+.port-image1 {
+    top: 175px;
+    left: 300px;
+} 
+.port-image2 {
+    top: 175px;
+   left: 603px;
 } 
 
-/*---------------------
-project picture overlay
--------------------- */
+.port-image3 {
+   top: 335px;
+   left: 300px;
+} 
+
+.port-image4 {
+   top: 335px;
+   left: 603px;
+} 
+
+.port-image5 {
+   top: 495px;
+   left: 300px;
+} 
+
+/*-------------------------------
+project picture overlay framework
+------------------------------ */
 .column {
     float: left;
     width: 200px;;
@@ -225,36 +266,38 @@ body {
     height: 100vh;
 } 
 
-  .overlay {
-    position: absolute;
-    background: teal;
-    color: white;
-    width: 243px;
-    opacity:1;
-    font-size: 15px;
-    padding: 20px;
-    text-align: center;
-  }
-
-  /* specific image overlays */
-  .overlay1 {
+.overlay {
+  position: absolute;
+  background: teal;
+  color: white;
+  width: 243px;
+  opacity:1;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+/* specific image overlays */
+.overlay1 {
     top: 262px;
+    left: 300px;
   }
   
   .overlay2 {
     top: 262px;
-    left: 618px;
+    left: 603px;
   }
   
   .overlay3 {
     top: 422px;
+    left: 300px;
   }
   
   .overlay4 {
     top: 422px;
-    left: 618px;
+    left: 603px;
   }
   
   .overlay5 {
     top: 582px;
+    left: 300px;
   }

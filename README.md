@@ -1,1 +1,2 @@
 # Basic-Portfolio
+Set up using fixed width for main content. Page can collapse a little before content moves out of position. Navigation between pages have been set up and beginnings of UI are in place.
