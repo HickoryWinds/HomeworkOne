@@ -71,6 +71,7 @@ format classes
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     float: left;
+    overflow: hidden;
 }
 
 /* add height for portfolio main due absolute positioning of images */
@@ -196,6 +197,7 @@ format ids
 
 #sidebarB {
     width: 18%;
+    min-width: 180px;
     height: 500px;
     float :right;
     background-color: transparent;
